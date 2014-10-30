@@ -71,6 +71,11 @@ nav li{
   display: inline-block;  
 }
 
+#Contact{
+  padding: 5%;
+ }
+
+
 
 /*************** 
 Footer
@@ -110,7 +115,7 @@ Portfolio
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
+  font-size: 1em;
   color: #bdc3c7;
 }
 
