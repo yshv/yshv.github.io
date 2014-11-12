@@ -1,6 +1,6 @@
 yshv.github.io
 ==============
-I am basicly just making a profolio.  
+I am basically just making a portfolio.  
 Learning front-end. HTML, CSS and JavaScript.
 
 License
