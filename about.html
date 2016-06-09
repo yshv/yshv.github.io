@@ -23,7 +23,7 @@
     <div id="wrapper">
       <section class="page_text">
       <h3> About </h3>
-      <p>I'm 13 and like building things. How <font color="red"><blink>edgy</blink></font>.</p>
+      <p>I'm 13 and like building things.</p>
       </section>
       <footer>
       <a href="http://twitter.com"><img src="Images/Twitter-icon.png" alt="twitter" class="social-icon">
@@ -33,23 +33,5 @@
         <p>&copy; 2014 Yashvir Sangha</p>
       </footer>
     </div>
-  
-  <!-- from some wikipedia page --> 
-  <!-- i need to lrn2javascript -->
-  <script type="text/javascript">
-    function blink() {
-      var blinks = document.getElementsByTagName('blink');
-      for (var i = blinks.length - 1; i >= 0; i--) {
-        var s = blinks[i];
-        s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
-      }
-      window.setTimeout(blink, 1000);
-    }
-    if (document.addEventListener) document.addEventListener("DOMContentLoaded", blink, false);
-    else if (window.addEventListener) window.addEventListener("load", blink, false);
-    else if (window.attachEvent) window.attachEvent("onload", blink);
-    else window.onload = blink;
-  </script>
-
   </body>
 </HTML>
